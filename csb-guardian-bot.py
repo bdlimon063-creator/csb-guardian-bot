@@ -4,10 +4,10 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 from openai import OpenAI
 
 # ================== CONFIG ==================
-TOKEN = "PASTE_YOUR_BOT_TOKEN_HERE"
+TOKEN = "8255803429:AAGfghbmmC_8qmp4YOP1aF5PuLTJsFYauSc"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(api_key=8255803429:AAHV7BuTaFyuvraVUb7mEQYWRWG5O-PeljU)
 
 # ================== AI REPLY ==================
 async def ai_reply(prompt: str) -> str:
